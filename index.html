@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>H5的免费送用户商城</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no">
+    <title>h5</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+  <script>
+    let html = document.documentElement; // 获取全局节点
+    window.rem = html.getBoundingClientRect().width / 25 ; // 获取全局的宽度 并计算 25rem 为一屏 宽
+    html.style.fontSize = window.rem + 'px'; // 定义根元素的大
+  </script>
+</html>
